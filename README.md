@@ -28,6 +28,8 @@ Pastikan Anda telah menginstal Python dan pip, lalu install dependencies berikut
 ```bash
 pip install streamlit tensorflow opencv-python pillow
 
+Struktur Directory
+
 project/
 │
 ├── food_CNN.h5          # Model hasil training
