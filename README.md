@@ -17,14 +17,7 @@ Aplikasi akan menampilkan hasil klasifikasi beserta tingkat kepercayaan (confide
 | **Raihan Firyal**           | 2208107010084    |
 | **Riska Haqika Situmorang** | 2208107010086    |
 
----
-
-project/
-│
-├── food_CNN.h5          # Model hasil training
-├── app.py               # File utama Streamlit
-├── README.md            # Dokumentasi proyek
-└── requirements.txt     # (opsional) daftar pustaka
+--
 
 
 ## 🚀 Instruksi Penerapan
