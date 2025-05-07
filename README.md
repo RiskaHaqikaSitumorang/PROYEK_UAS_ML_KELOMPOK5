@@ -10,14 +10,22 @@ Aplikasi akan menampilkan hasil klasifikasi beserta tingkat kepercayaan (confide
 
 ## 👥 Tim Kontributor
 
-| Nama Lengkap                 | NIM             | Peran                                 |
-|-----------------------------|------------------|----------------------------------------|
-| **Nazwa Salsabila**         | 2208107010010    | Frontend Streamlit Developer, UI/UX    |
-| **Berliani Utami**          | 2208107010082    | Data Preprocessing & Model Evaluator   |
-| **Raihan Firyal**           | 2208107010084    | Model Architect & Training Specialist  |
-| **Riska Haqika Situmorang** | 2208107010086    | Dokumentasi & Integrasi Aplikasi       |
+| Nama Lengkap                 | NIM             |
+|-----------------------------|------------------|
+| **Nazwa Salsabila**         | 2208107010010    |
+| **Berliani Utami**          | 2208107010082    |
+| **Raihan Firyal**           | 2208107010084    |
+| **Riska Haqika Situmorang** | 2208107010086    |
 
 ---
+
+project/
+│
+├── food_CNN.h5          # Model hasil training
+├── app.py               # File utama Streamlit
+├── README.md            # Dokumentasi proyek
+└── requirements.txt     # (opsional) daftar pustaka
+
 
 ## 🚀 Instruksi Penerapan
 
@@ -26,3 +34,10 @@ Pastikan Anda telah menginstal Python dan pip, lalu install dependencies berikut
 
 ```bash
 pip install streamlit tensorflow opencv-python pillow
+
+project/
+│
+├── food_CNN.h5          # Model hasil training
+├── aplikasi.py          # File utama Streamlit
+├── README.md            # Dokumentasi proyek
+└── pizza_steak(ML)      # File Train Model
